@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.gvsproject.autosave
+
+# Local/private GTA test assets must never be committed.
+test-assets-private/
+private-fixtures/
+*.rpf
+*.yft
+*.ytd
+*.ydr
+*.ydd
+*.ybn
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
